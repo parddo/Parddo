@@ -1,0 +1,107 @@
+$color-blanco: #ffffff;
+$color-body: #0d0d0d;
+$color-section: #222222;
+$colo-secubdary: #2c2c2c;
+$color-princs:#58a846;
+
+.profile{
+    background-color: $color-section;
+    border: solid 4px $colo-secubdary;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 270px;
+    transition: all 1.5s;
+    z-index: 4;
+    overflow: auto !important;
+    
+  }
+  .photo-name{
+    text-align: center;
+  }
+  
+  .photo-name__img--img{
+    max-width: 80%;
+    border-radius: 10% 10% 0 0;
+   
+  }
+  .profile_container{
+    text-align: left;
+    padding: 30px 0%;
+    max-height: 100%;  
+  }
+  .photo-name__name{
+    padding: 10px 3%;
+    background-color: $colo-secubdary;
+  }
+  .photo-name__name--name{
+   margin-top: 20px;
+   font-weight: 600;
+   font-size: 25px;
+  }
+  
+  .photo-name__name-subtitle{
+    margin: 0;
+    padding-bottom: 16px;
+    font-size: 18px;
+  }
+  .social-networks{
+    padding: 10px 3%;
+    border-bottom: solid 1px $colo-secubdary;
+  }
+  .social-networks__list{
+    margin: 0 auto;
+    
+    padding: 0%;
+    display: grid;
+    grid-template: 50px / 20% 20% 20% 20% 20%;
+    align-items: center;
+  }
+  
+  .social-networks__list--li{
+    margin: 10px auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-networks__list--a{
+    text-decoration: none;
+  }
+  
+  .social-networks__list--i{
+    color: $color-princs;
+    font-size: 30px;
+  }
+  
+  .summary-about {
+    padding: 10px 7%;
+    text-align: left;
+  }
+  
+  .summary-about__title{
+    font-weight: 600;
+  }
+
+  .div-button{
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) { 
+
+    .profile{
+      display: block;
+      position:fixed;
+      left: 4%;
+      top: 1vh;
+      height: 98vh;
+      min-width: 300px;
+      width: 18%;
+      transition: all 1.5s;
+      z-index: 4;
+      overflow: auto !important;
+      
+        
+    }
+   }
+  

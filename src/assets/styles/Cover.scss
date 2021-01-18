@@ -1,0 +1,38 @@
+$color-blanco: #ffffff;
+$color-body: #0d0d0d;
+$color-section: #222222;
+$colo-secubdary: #2c2c2c;
+$color-princs:#58a846;
+
+.cover-page{
+    max-width: 100%;
+    
+    padding: 3%;
+    display: grid;
+    grid-template: 70% / 70% 30%;
+  
+    align-items: center;
+  }
+  
+  .cover-page__photo{
+    max-width: 100%;
+  }
+  
+  .cover-page__photo--img{
+    margin-top: 25px;
+    max-width: 100%;
+    border: solid 2px $color-princs;
+    border-radius: 50%;
+  }
+  .cover-page__info--h2{
+    font-weight: 600;
+    margin-top: 28px;
+  }
+  
+  .cover-page__info--h4{
+    font-size: 17px;
+  }
+  .cover-page__info--p{
+    font-size: 14px;
+  }
+  

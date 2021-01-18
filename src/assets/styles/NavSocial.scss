@@ -1,0 +1,32 @@
+
+$color-body: #0d0d0d;
+$color-section: #222222;
+$color-princs:#58a846;
+
+  .social-networks{
+    padding: 10px 3%;
+    border-bottom: solid 1px ;
+  }
+  .social-networks__list{
+    margin: 0 auto;
+    
+    padding: 0%;
+    display: grid;
+    grid-template: 50px / 20% 20% 20% 20% 20%;
+    align-items: center;
+  }
+  
+  .social-networks__list--li{
+    margin: 10px auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-networks__list--a{
+    text-decoration: none;
+  }
+  
+  .social-networks__list--i{
+    color: $color-princs;
+    font-size: 30px;
+  }
