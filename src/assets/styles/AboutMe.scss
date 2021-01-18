@@ -1,0 +1,19 @@
+$color-blanco: #ffffff;
+$color-body: #0d0d0d;
+$color-section: #222222;
+$colo-secubdary: #2c2c2c;
+$color-terce: #ffffff1a;
+$color-princs:#58a846;
+
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-cv{
+    border: solid 1px $color-princs !important;
+    margin-top: 20px;
+    background-color: $color-terce !important;
+}
