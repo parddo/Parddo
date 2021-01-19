@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
     render(){
         return (
             <section className="container setc-main">
-                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="About Me" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum, libero officiis, fugit blanditiis eveniet sint deserunt iusto aspernatur cumque facere ea expedita. Ex officia cumque quaerat, saepe labore praesentium!" />
+                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="About Me" description="Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it. 1 It was founded in 2014 by the Colombian engineer Freddy Vega and the Guatemalan computer scientist Christian Van Der Henst." />
                 <div className="technologies">
                     <Technologies  nameClass="fas fa-globe-americas" tecnologi="Web"/>
                     <Technologies  nameClass="fab fa-js-square" tecnologi="JavaScript"/>

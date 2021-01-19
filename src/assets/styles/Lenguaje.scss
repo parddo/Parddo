@@ -1,0 +1,72 @@
+@import "app.scss";
+
+
+.lenguaje {
+    width: 320px;
+}
+
+.lenguaje-flex{
+    display: flex;
+    max-height: 30px;
+    justify-content: space-evenly;
+}
+.lenguaje-porcentage{
+    max-width: 10%;
+}
+.lenguaje-porcentage__p {
+    margin: 0 auto 0 280px;
+    max-width: 40px;
+}
+
+.lenguaje-tlite{
+    width: 90px;
+    
+}
+
+.lenguaje-tlite__p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.lenguaje-progres{
+    height: 30px;
+    min-width: 200px;
+}
+.lenguaje-progres__barra{
+    margin-top: 7px;
+    height: 6px;
+    min-width: 100%;
+    background-color: $colo-secubdary;
+}
+.lenguaje-progres__barra div {
+    height: 100%;
+}
+.Excel {
+    background-color: #366e3b;
+    width: 80%;
+}
+
+.Html {
+    background-color: #e78e00;
+    width: 70%;
+}
+
+.Css {
+    background-color: royalblue;
+    width: 64%;
+}
+
+.JavaScript {
+    width: 60%;
+    background-color: rgb(255, 225, 27);
+}
+
+.React {
+    background-color: #5ed3f3;
+    width: 45%;
+}
+
+.English {
+    background-color: rgb(138, 22, 22);
+    width: 10%;
+}

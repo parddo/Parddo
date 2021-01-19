@@ -4,6 +4,7 @@ import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
 import Cover from './sections/Cover';
 import Education from './sections/Education';
+import MySkills from './sections/MySkills';
 import Profile from './sections/Profile';
 
 
@@ -18,7 +19,9 @@ const HelloWorld= () => (
         <Cover  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg"/>
 
         <AboutMe />
+        <MySkills />
         <Education />
+        
     </div>
 
 </div>

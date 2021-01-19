@@ -1,0 +1,25 @@
+@import "app.scss"; 
+
+.skillsProfesionls {
+    background-color: $color-terce;
+    padding: 30px 5px;
+}
+
+.skillsProfesionls-tlite{
+
+    text-align: center;
+}
+
+.skillsProfesionls-tlite__h3 {
+    font-weight: 600;
+}
+
+.skillsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skillsFlex-section {
+    max-width: 320px;
+}
