@@ -6,6 +6,7 @@ import Contact from './sections/Contact';
 import Cover from './sections/Cover';
 import Education from './sections/Education';
 import Experience from './sections/Experience';
+import Footer from './sections/Footer';
 import MySkills from './sections/MySkills';
 import Profile from './sections/Profile';
 
@@ -25,6 +26,7 @@ const HelloWorld= () => (
         <Education />
         <Experience />
         <Contact />
+        <Footer />
     </div>
 
 </div>
