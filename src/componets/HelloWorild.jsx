@@ -3,6 +3,7 @@ import '../assets/styles/app.scss'
 import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
 import Cover from './sections/Cover';
+import Education from './sections/Education';
 import Profile from './sections/Profile';
 
 
@@ -17,6 +18,7 @@ const HelloWorld= () => (
         <Cover  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg"/>
 
         <AboutMe />
+        <Education />
     </div>
 
 </div>

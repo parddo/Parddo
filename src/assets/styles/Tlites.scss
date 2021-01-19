@@ -1,0 +1,32 @@
+@import "app.scss";
+
+
+.curses img {
+    margin: auto 0;
+    width: 15%;
+    height: 15%;
+    max-width: 50px;
+   }
+   
+   .curses h6 {
+       margin: auto;
+       max-width: 55%;
+   }
+   
+   .curses h5 {
+       margin: auto 0;
+       font-weight: 600;
+       width: 20%;
+       color: #94c540;
+   
+   }
+   
+   .curses{
+       margin-top: 20px;
+       padding: 10px  ;
+       border-radius: 30px;
+       background-color: #ffffff1a;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
