@@ -1,0 +1,11 @@
+@import "app.scss";
+
+.contac-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contac-info div {
+    min-width: 300px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/app.scss'
 import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
+import Contact from './sections/Contact';
 import Cover from './sections/Cover';
 import Education from './sections/Education';
 import Experience from './sections/Experience';
@@ -23,7 +24,7 @@ const HelloWorld= () => (
         <MySkills />
         <Education />
         <Experience />
-        
+        <Contact />
     </div>
 
 </div>
