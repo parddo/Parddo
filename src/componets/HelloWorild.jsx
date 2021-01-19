@@ -4,6 +4,7 @@ import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
 import Cover from './sections/Cover';
 import Education from './sections/Education';
+import Experience from './sections/Experience';
 import MySkills from './sections/MySkills';
 import Profile from './sections/Profile';
 
@@ -21,6 +22,7 @@ const HelloWorld= () => (
         <AboutMe />
         <MySkills />
         <Education />
+        <Experience />
         
     </div>
 
