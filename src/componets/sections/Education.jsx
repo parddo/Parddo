@@ -10,7 +10,7 @@ class Education extends React.Component {
             <section className="container setc-main" id="Education">
                 <SectionOne  icoClass="fas fa-user-graduate icon-section"  tlite="Education" description="Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it. 1 It was founded in 2014 by the Colombian engineer Freddy Vega and the Guatemalan computer scientist Christian Van Der Henst." />
                 <div className="tlites">
-                    <Card  url="https://pbs.twimg.com/media/Ea_XTWyXYAEshgN?format=jpg&name=900x900" description="Este fue un curso donde aprendi a manejar sasss, este fue un exelete curso"  />
+                    <Card  url="https://images.pexels.com/photos/1422292/pexels-photo-1422292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" description="Este fue un curso donde aprendi a manejar sasss, este fue un exelete curso"  />
                 </div>  
                     <Tlites  url="https://static.platzi.com/media/achievements/badge-react-2018-afc93257-48af-4e54-acaa-4d0433380f64.png" curse="React JS Course" instituto="Platzi"/>
                     <Tlites  url="https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png" curse="Git and GitHub Professional Course" instituto="Platzi"/>

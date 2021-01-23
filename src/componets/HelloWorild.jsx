@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/app.scss'
+import AnimationT from './complements/AnimationT';
 import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
 import Contact from './sections/Contact';
@@ -18,9 +19,10 @@ const HelloWorld= () => (
         <Profile  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg" />
     </div>
     <div className="main">
+        
         <Navar />
         <Cover  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg"/>
-
+        <AnimationT />
         <AboutMe />
         <MySkills />
         <Education />
