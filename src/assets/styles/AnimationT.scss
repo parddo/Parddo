@@ -2,14 +2,15 @@
 
 .bg {
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, rgb(0, 7, 61) 50%, rgb(0, 0, 46) 50%);
+    background-image: linear-gradient(-60deg, rgb(3, 3, 100) 50%, rgb(15, 7, 68) 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
     position:fixed;
     right:-50%;
     top:0;
-    z-index:-1;
+    z-index:-1; 
+    
     
   
   .bg2 {
@@ -41,6 +42,6 @@
   @media (min-width: 720px) {
     
     .bg {
-      background-image: linear-gradient(-60deg, rgb(0, 0, 46) 50%, rgb(0, 2, 17) 50%);
+      background-image: linear-gradient(-60deg, rgb(3, 3, 100) 50%, rgb(15, 7, 68) 50%);
     }
   }

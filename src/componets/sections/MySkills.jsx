@@ -10,7 +10,7 @@ class MySkills extends React.Component {
     render(){
         return(
             <section className="container setc-main">
-                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum, libero officiis, fugit blanditiis eveniet sint deserunt iusto aspernatur cumque facere ea expedita. Ex officia cumque quaerat, saepe labore praesentium!" />
+                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it. 1 It was founded in 2014 by the Colombian engineer Freddy Vega and the Guatemalan computer scientist Christian Van Der Henst." />
                 <div className="skillsProfesionls">
                     <div className="skillsProfesionls-tlite">
                         <h4 className="skillsProfesionls-tlite__h3">Professional skills</h4>
@@ -29,7 +29,6 @@ class MySkills extends React.Component {
                     </div>
                 </div>
                 <br/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis itaque blanditiis tempora quis? Explicabo assumenda recusandae fugiat, voluptates reprehenderit distinctio ipsum corrupti maxime ratione illo laboriosam reiciendis sapiente tenetur?</p>
             </section>
         );
     }

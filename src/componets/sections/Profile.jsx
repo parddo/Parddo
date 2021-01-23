@@ -23,10 +23,10 @@ class Profile extends React.Component {
                     < NavSocial />
                     <div className="summary-about">
                         <h3 className="summary-about__title">About me</h3>
-                        <p className="summary-about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id asperiores placeat accusamus beatae facere odio nostrum dolores excepturi, repellendus, deserunt minus facilis voluptates eligendi? Soluta provident modi sunt commodi?</p>
+                        <p className="summary-about__paragraph">Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it.</p>
                     </div>
                     <div className="div-button">
-                        <ButomPrimary nameclass="btn btn-success button__profile" textt="Contact now"/>
+                        <a href="https://api.whatsapp.com/send?phone=573003865594&text=Hola%20Camilo!" target="_blank"><ButomPrimary nameclass="btn btn-success button__profile" textt="Send Message"/></a>               
                     </div>
                 </div>
             </section>

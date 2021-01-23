@@ -6,11 +6,10 @@ import '../../assets/styles/Contact.scss'
 import NavSocial from '../complements/NavSocial';
 
 class Contact extends React.Component {
-    render(){
-        return(
-            <section className="container setc-main">
-                <SectionOne  icoClass="far fa-envelope icon-section"  tlite="Contact" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum, libero officiis, fugit blanditiis eveniet sint deserunt iusto aspernatur cumque facere ea expedita. Ex officia cumque quaerat, saepe labore praesentium!" />
-                
+    render() {
+        return (
+            <section className="container setc-main" id="Contact">
+                <SectionOne icoClass="far fa-envelope icon-section" tlite="Contact" description="Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it." />
                 <div className="contac-info">
                     <div>
                         <ul>
@@ -20,7 +19,6 @@ class Contact extends React.Component {
                         </ul>
                     </div>
                     <NavSocial />
-                    
                 </div>
             </section>
         );

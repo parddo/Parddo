@@ -17,7 +17,10 @@ class Navar extends React.Component {
                       <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                           <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Abaut me</a>
+                            <a className="nav-link active" aria-current="page" href="#AboutMe">About Me</a>
+                          </li>
+                          <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#MySkills">My Skills</a>
                           </li>
                           <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#Education">Education</a>
@@ -26,7 +29,7 @@ class Navar extends React.Component {
                             <a className="nav-link active" aria-current="page" href="#Experience">Experience</a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+                            <a className="nav-link active" aria-current="page" href="#Contact">Contact</a>
                           </li>
                         </ul>
                       </div>
