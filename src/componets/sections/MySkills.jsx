@@ -9,8 +9,8 @@ import Lenguaje from '../complements/Lenguaje';
 class MySkills extends React.Component {
     render(){
         return(
-            <section className="container setc-main">
-                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="Platzi is a Latin American online education platform. It is aimed at all audiences, however, its objective is education in technology and the variants that are based on it. 1 It was founded in 2014 by the Colombian engineer Freddy Vega and the Guatemalan computer scientist Christian Van Der Henst." />
+            <section className="container setc-main" id="MySkills">
+                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="I stand out for being a self-taught person with a great capacity for entrepreneurship and innovation. I am also proficient in programming tools and languages ​​such as: Excel and JavaScript." />
                 <div className="skillsProfesionls">
                     <div className="skillsProfesionls-tlite">
                         <h4 className="skillsProfesionls-tlite__h3">Professional skills</h4>
