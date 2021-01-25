@@ -19,8 +19,8 @@ class AboutMe extends React.Component {
                 </div>
                 <div className="card text-center card-cv">
                   <div className="card-body">
-                    <h3 className="card-title">Soon</h3>
-                    <a href="#" className="btn btn-success">Download CV</a>
+                    <h3 className="card-title">Do you want to know more?</h3>
+                    <a download="HojaCamiloPardo.pdf" href="https://www.parddo.com/pdf/CamiloPardo.pdf" target="_blank"  className="btn btn-success"><i class="fas fa-cloud-download-alt"></i> Download CV</a>
                   </div>
                 </div>
             </section>
