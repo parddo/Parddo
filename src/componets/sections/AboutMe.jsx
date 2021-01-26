@@ -20,7 +20,7 @@ class AboutMe extends React.Component {
                 <div className="card text-center card-cv">
                   <div className="card-body">
                     <h3 className="card-title">Do you want to know more?</h3>
-                    <a download="HojaCamiloPardo.pdf" href="https://www.parddo.com/pdf/CamiloPardo.pdf" target="_blank"  className="btn btn-success"><i class="fas fa-cloud-download-alt"></i> Download CV</a>
+                    <a download="HojaCamiloPardo.pdf" href="https://www.parddo.com/pdf/CamiloPardo.pdf" target="_blank"  className="btn btn-success"><i className="fas fa-cloud-download-alt"></i> Download CV</a>
                   </div>
                 </div>
             </section>

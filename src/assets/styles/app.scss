@@ -1,84 +1,83 @@
-
 $color-blanco: #ffffff;
 $color-body: #0d0d0d;
 $color-section: #22222270;
 $colo-secubdary: #2c2c2c;
 $color-terce: #00000045;
-$color-princs:#58a846;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  .setc-main {
-    padding: 20px 3%;
-  } 
+$color-princs: #58a846;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
-body{
-    font-family: 'Raleway', sans-serif;
-    background-color: $color-body;
-    color: $color-blanco;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.setc-main {
+  padding: 20px 3%;
 }
 
-#app{
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: $color-body;
+  color: $color-blanco;
+}
+
+#app {
   padding: 2% 3%;
 }
 
-  
-.container{
-    min-width: 100%;
-    background-color: $color-section ;
-    padding: auto 3% ;
-    margin-bottom: 20px;
-      -webkit-box-shadow: 0px 0px 7px 0px $color-princs;
-      -moz-box-shadow: 0px 0px 7px 0px $color-princs;
-      box-shadow: 0px 0px 7px 0px $color-princs;
+.container {
+  min-width: 100%;
+  background-color: $color-section;
+  padding: auto 3%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 10px 10px 5px -3px #0f0f0f;
+-moz-box-shadow: 10px 10px 5px -3px  #0f0f0f;
+box-shadow: 10px 10px 5px -3px  #0f0f0f;
 }
 
-
-
-span{
-    color: $color-princs;
+span {
+  color: $color-princs;
 }
 
-h2{
-    font-weight: 600;
+h2 {
+  font-weight: 600;
 }
 
-.footer{
-    padding: 10px;
+.footer {
+  padding: 10px;
 }
 
 .footer p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-  
-  
-@media (min-width: 480px) {
-    .cover-page__info--h4 {
-      font-weight: 600;
-      font-size: 30px;
-    }
-  
-    .cover-page__info--p {
-      font-size: 20px;
-    }
-  
-    .setc-main {
-      padding: 30px 3%;
-    } 
 
-    .container {
-      margin-bottom: 30px;
-    }
+@media (min-width: 480px) {
+  .cover-page__info--h4 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .cover-page__info--p {
+    font-size: 20px;
+  }
+
+  .setc-main {
+    padding: 30px 3%;
+  }
+
+  .container {
+    margin-bottom: 30px;
+  }
 }
-  
+
 @media (min-width: 1024px) {
   .main {
     max-width: 800px;
-    margin-left:  35%;
+    margin-left: 35%;
   }
-  
 }
