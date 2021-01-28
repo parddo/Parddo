@@ -17,13 +17,13 @@ class Profile extends React.Component {
                         </div>
                         <div className="photo-name__name">
                             <h2 className="photo-name__name--name">Camilo Pardo</h2>
-                            <p className="photo-name__name-subtitle">JavaScript <span>Developer</span></p>
+                            <p className="photo-name__name-subtitle"><span> Systems </span> Assistant</p>
                         </div>
                     </div>
                     < NavSocial />
                     <div className="summary-about">
                         <h3 className="summary-about__title">About me</h3>
-                        <p className="summary-about__paragraph">I am  junior JavaScript developer, with  knowledge in web development. I am self-taught and I am passionate about everything that has to do with programming languages ​​and systems.</p>
+                        <p className="summary-about__paragraph">I am a systems engineering student, with  knowledge in web development. I am self-taught and I am passionate about everything that has to do with programming languages ​​and systems.</p>
                     </div>
                     <div className="div-button">
                         <a href="https://api.whatsapp.com/send?phone=573003865594&text=Hola%20Camilo!" target="_blank"><ButomPrimary nameclass="btn btn-success button__profile" textt="Send Message"/></a>               

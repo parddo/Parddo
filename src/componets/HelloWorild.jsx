@@ -24,9 +24,9 @@ const HelloWorld= () => (
         <Cover  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg"/>
         <AnimationT />
         <AboutMe />
+        <Experience />
         <MySkills />
         <Education />
-        <Experience />
         <Contact />
         <Footer />
     </div>

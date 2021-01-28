@@ -10,7 +10,7 @@ class MySkills extends React.Component {
     render(){
         return(
             <section className="container setc-main" id="MySkills">
-                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="I stand out for being a self-taught person with a great capacity for entrepreneurship and innovation. I am also proficient in programming tools and languages ​​such as: Excel and JavaScript." />
+                <SectionOne  icoClass="far fa-check-circle icon-section"  tlite="My skills" description="Update on the trends of the web development and office automation market, as well as the ability to quickly learn new technologies. Ease of learning and versatility, preparation for challenging scenarios and to get out of the comfort zone." />
                 <div className="skillsProfesionls">
                     <div className="skillsProfesionls-tlite">
                         <h4 className="skillsProfesionls-tlite__h3">Professional skills</h4>
