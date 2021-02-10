@@ -10,23 +10,25 @@ import Experience from './sections/Experience';
 import Footer from './sections/Footer';
 import MySkills from './sections/MySkills';
 import Profile from './sections/Profile';
+import Recomendation from './sections/Recomendation';
 
 
 
 const HelloWorld= () => (
     <div className="contend-main ">
     <div>
-        <Profile  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg" />
+        <Profile  imgProfile="https://pbs.twimg.com/profile_images/1357919563304812546/m00ORRdz_400x400.jpg" />
     </div>
     <div className="main">
         
         <Navar />
-        <Cover  imgProfile="https://pbs.twimg.com/profile_images/1349920846282895368/IJaRmXZ3_400x400.jpg"/>
+        <Cover  imgProfile="https://pbs.twimg.com/profile_images/1357919563304812546/m00ORRdz_400x400.jpg"/>
         <AnimationT />
         <AboutMe />
-        <Experience />
         <MySkills />
+        <Recomendation />
         <Education />
+        <Experience />
         <Contact />
         <Footer />
     </div>
