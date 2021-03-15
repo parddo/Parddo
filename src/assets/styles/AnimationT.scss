@@ -1,8 +1,8 @@
 @import "app.scss";
 
 .bg {
-    animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg,  #121f3d 50%, #1c2d56 50%);
+    animation:slide 5s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg,  #1e5271 50%, #1c3643 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -21,7 +21,7 @@
   }
   
   .bg3 {
-    animation-duration:5s;
+    animation-duration:7s;
   
   }
   
@@ -42,6 +42,6 @@
   @media (min-width: 720px) {
     
     .bg {
-      background-image: linear-gradient(-60deg, rgb(3, 3, 100) 50%, rgb(15, 7, 68) 50%);
+      background-image: linear-gradient(-60deg, #1c3643 50%, #1e5271 50%);
     }
   }

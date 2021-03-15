@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
     render(){
         return (
             <section className="container setc-main" id="AboutMe">
-                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="About Me" description="I am a systems engineering student, with knowledge in web development. On a personal level, I am a very committed, responsible, self-taught and passionate person in everything that has to do with programming languages ​​and systems."  />
+                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="About Me" description="I am a systems engineering student with knowledge in web development. On a personal level, I am a very committed, responsible, self-taught and passionate person in everything that has to do with programming languages ​​and systems."  />
                 <div className="technologies">
                     <Technologies  nameClass="far fa-file-excel" tecnologi="Excel"/>
                     <Technologies  nameClass="fas fa-globe-americas" tecnologi="Web"/>
