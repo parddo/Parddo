@@ -8,7 +8,7 @@ class Education extends React.Component {
     render(){
         return (
             <section className="container setc-main" id="Education">
-                <SectionOne  icoClass="fas fa-user-graduate icon-section"  tlite="Education" description="Currently I study data science and backend development at Platzi, on this same platform I have acquired my knowledge in front-end development and other areas. Below, I will share a list of my latest courses." />
+                <SectionOne  icoClass="fas fa-user-graduate icon-section"  tlite="Education" description="Currently I study data science and backend development at Platzi, on this same platform I have acquired my knowledge in front-end development and other areas. Below I will share a list of my latest courses." />
                 <div className="tlites">
                     <Card  url="https://images.pexels.com/photos/1422292/pexels-photo-1422292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" description="Este fue un curso donde aprendi a manejar sasss, este fue un exelete curso"  />
                 </div>  
