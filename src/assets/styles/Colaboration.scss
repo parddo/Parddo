@@ -5,6 +5,25 @@
     margin: 10px;
   }
 
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hisotory-photo {
+  
+  max-width: 300px;
+}
+
+.hisotory-photo__img {
+  max-width: 100%;
+}
+
+.hisotory-description {
+  margin-top: 20px;
+  width: 100%;
+}
 
   .card-colaboration{
     color: $color-princs;
@@ -13,4 +32,17 @@
     border: solid 1px $color-princs !important;
     margin-top: 20px;
     font-weight: 600 !important;
+}
+
+
+@media (min-width: 720px) {
+
+  .hisotory-photo {
+  
+    max-width: 250px;
+  }
+  .hisotory-description {
+    margin: 0px;
+    max-width: 320px;
+  }
 }
