@@ -9,7 +9,7 @@ class Contact extends React.Component {
     render() {
         return (
             <section className="container setc-main" id="Contact">
-                <SectionOne icoClass="far fa-envelope icon-section" tlite="Contact" description="Recuerda que puedes contactarme en cualquier momento." />
+                <SectionOne icoClass="far fa-envelope icon-section" tlite="Contacto" description="Recuerda que puedes contactarme en cualquier momento." />
                 <div className="contac-info">
                     <div>
                         <ul>

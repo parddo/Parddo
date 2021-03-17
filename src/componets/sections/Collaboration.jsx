@@ -9,14 +9,15 @@ class Colaboration extends React.Component {
     render() {
         return (
             <section className="container setc-main" id="Reconendation">
-                <SectionOne icoClass="fas fa-business-time" tlite="¡Busco empleo!" description="voluptate esse debitis reprehenderit, ipsa eaque hic, pariatur dicta laboriosam repellat quidem repellendus beatae aut saepe." />
+                <SectionOne icoClass="fas fa-business-time" tlite="Busco empleo" description="Cuento con experiencia como auxiliar administrativo y técnico de soporte en servicios de alojamiento web, actualmente vivo en la ciudad de Medellín, pero cuento con disponibilidad para mudarme a otras ciudades como Bogotá o Cali en caso de que sea necesario." />
                 <div className="sectionOne history">
                     <div className="hisotory-photo">
                         <img className="hisotory-photo__img" src="https://scontent.feoh1-1.fna.fbcdn.net/v/t1.0-9/143868746_109425014468986_3537681929869559314_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeFOKpReVgBXUI7ugHnwGN8lpUCJIt7WHy6lQIki3tYfLv11NCNIOA0sqxAylpeVIZ2XHRJzvRYrTiaQz0Ads3By&_nc_ohc=w1qOV1yF7_kAX8xkSBz&_nc_ht=scontent.feoh1-1.fna&oh=db1f0146af9dcf3b1e1a509cb9db027d&oe=6075C765" alt=""></img>
                     </div>
                     <div className="hisotory-description">
-                        <p className="hisotory-description__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, deserunt dolore? Dignissimos soluta sapiente modi dolorum necessitatibus cupiditate voluptatum quis quidem facere nobis adipisci aperiam architecto, exercitationem tenetur nulla. Voluptatem.</p>
-                        <p className="hisotory-description_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias laudantium ut quis quia magnam voluptate esse debitis reprehenderit, ipsa eaque hic, pariatur dicta laboriosam repellat quidem repellendus beatae aut saepe.</p>
+                        <p className="hisotory-description__content">Decidí buscar empleo de esta manera, ya que en estos momentos se me ha dificultado para todo lo que ha sido mi alimentación, el arriendo, transporte, entre otros. También tomé esta decisión, porque creo que no hay justificación alguna para renunciar a mis estudios y dejar de perseguir mis sueños y aspiraciones.</p>
+                        <p className="hisotory-description_content">Sí tú no tienes una oferta laboral para mí, pero deseas ayudarme, lo puedes hacer con todo lo que tú creas que me sirve para seguir adelante y salir de esta situación.</p>
+                        <h4>¡Muchas gracias!</h4>
                     </div>
                 </div>
                 <div>
@@ -25,9 +26,9 @@ class Colaboration extends React.Component {
                             
                             <h3 className="card-title">Puedes ayudarme de forma segura con Pay<b>U</b></h3>
                             <div className="btn-colaboration">
-                                <a href="https://biz.payulatam.com/B0e0d4d238006E4"> <button type="button" class="btn btn-success"><samp></samp> $20.000 Pay<b>U</b></button></a>
-                                <a href=""> <button type="button" class="btn btn-success "><samp></samp> $50.000 Pay<b>U</b></button></a>
-                                <a href=""> <button type="button" class="btn btn-success btn-lg btn-block"><samp></samp> $100.000 Pay<b>U</b></button></a>
+                                <a href="https://biz.payulatam.com/L0e0d4d238006E4" target="_blank"> <button type="button" className="btn btn-success"><samp></samp> $20.000 Pay<b>U</b></button></a>
+                                <a href="https://biz.payulatam.com/L0e0d4dBD9AFAFE" target="_blank"> <button type="button" className="btn btn-success "><samp></samp> $50.000 Pay<b>U</b></button></a>
+                                <a href="https://biz.payulatam.com/L0e0d4d405A4742" target="_blank"> <button type="button" className="btn btn-success btn-lg btn-block"><samp></samp> $100.000 Pay<b>U</b></button></a>
                             </div>
                         </div>
                     </div>
