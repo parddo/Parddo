@@ -1,0 +1,16 @@
+@import "app.scss";
+
+
+.btn-colaboration button {
+    margin: 10px;
+  }
+
+
+  .card-colaboration{
+    color: $color-princs;
+
+    background-color: blanchedalmond;
+    border: solid 1px $color-princs !important;
+    margin-top: 20px;
+    font-weight: 600 !important;
+}

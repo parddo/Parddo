@@ -9,17 +9,17 @@ class Contact extends React.Component {
     render() {
         return (
             <section className="container setc-main" id="Contact">
-                <SectionOne icoClass="far fa-envelope icon-section" tlite="Contact" description="Remember that you can contact me at any time." />
+                <SectionOne icoClass="far fa-envelope icon-section" tlite="Contact" description="Recuerda que puedes contactarme en cualquier momento." />
                 <div className="contac-info">
                     <div>
                         <ul>
-                            <li><b>Location: </b> Medellín-Colombia</li>
-                            <li><b>Phone: </b> +57 3003865594</li>
-                            <li><b>Mail: </b> contacto@parddo.com</li>
+                            <li><b>Ubicación: </b> Medellín-Colombia</li>
+                            <li><b>Teléfono: </b> +57 3003865594</li>
+                            <li><b>Correo: </b> contacto@parddo.com</li>
                         </ul>
                     </div>
-                   <div>
-                       
+                   <div className="contacto-social">
+                       <h4>Sígueme en redes</h4>
                        <NavSocial />
                    </div>
                 </div>

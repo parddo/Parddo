@@ -23,10 +23,10 @@ class Profile extends React.Component {
                     < NavSocial />
                     <div className="summary-about">
                         <h3 className="summary-about__title">About me</h3>
-                        <p className="summary-about__paragraph">I am a systems engineering student with  knowledge in web development. I am self-taught and I am passionate about everything that has to do with programming languages ​​and systems.</p>
+                        <p className="summary-about__paragraph">Soy un estudiante de ingeniería de sistemas con conocimientos en desarrollo web. Soy autodidacta y me apasiona todo lo que tiene que ver con lenguajes y sistemas de programación.</p>
                     </div>
                     <div className="div-button">
-                        <a href="https://api.whatsapp.com/send?phone=573003865594&text=Hola%20Camilo!" target="_blank"><ButomPrimary nameclass="btn btn-success button__profile" textt="Send Message"/></a>               
+                        <a href="https://api.whatsapp.com/send?phone=573003865594&text=Hola%20Camilo!" target="_blank"><ButomPrimary nameclass="btn btn-success button__profile" textt="Enviar Mensaje"/></a>               
                     </div>
                 </div>
             </section>
