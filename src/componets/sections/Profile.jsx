@@ -17,7 +17,7 @@ class Profile extends React.Component {
                         </div>
                         <div className="photo-name__name">
                             <h2 className="photo-name__name--name">Camilo Pardo</h2>
-                            <p className="photo-name__name-subtitle"><span> Systems </span> Assistant</p>
+                            <p className="photo-name__name-subtitle"><span> Asistente </span> de sistemas</p>
                         </div>
                     </div>
                     < NavSocial />
