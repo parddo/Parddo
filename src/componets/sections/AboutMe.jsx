@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
     render(){
         return (
             <section className="container setc-main" id="AboutMe">
-                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="Sobre mí" description="Soy un estudiante de ingeniería de sistemas con conocimientos en desarrollo web. A nivel personal, soy una persona muy comprometida, responsable, autodidacta y apasionada en todo lo que tiene que ver con lenguajes y sistemas de programación."  />
+                <SectionOne  icoClass="fas fa-user-check icon-section"  tlite="Sobre mí" description="Soy estudiante de ingeniería de sistemas, cuento con conocimientos básicos en desarrollo web. A nivel personal, soy una persona muy comprometida, responsable, autodidacta y apasionada en todo lo que tiene que ver con lenguajes y sistemas de programación."  />
                 <div className="technologies">
                     <Technologies  nameClass="far fa-file-excel" tecnologi="Excel"/>
                     <Technologies  nameClass="fas fa-globe-americas" tecnologi="Web"/>
