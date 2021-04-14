@@ -3,7 +3,6 @@ import '../assets/styles/app.scss'
 import AnimationT from './complements/AnimationT';
 import Navar from './complements/Navar';
 import AboutMe from './sections/AboutMe';
-import Colaboration from './sections/Collaboration';
 import Contact from './sections/Contact';
 import Cover from './sections/Cover';
 import Education from './sections/Education';
@@ -28,7 +27,6 @@ const HelloWorld= () => (
         <MySkills />  
         <Education />
         <Experience />
-        <Colaboration />
         <Contact />
         <Footer />
     </div>
