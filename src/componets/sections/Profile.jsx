@@ -17,12 +17,12 @@ class Profile extends React.Component {
                         </div>
                         <div className="photo-name__name">
                             <h2 className="photo-name__name--name">Camilo Pardo</h2>
-                            <p className="photo-name__name-subtitle"><span> Asistente </span> de sistemas</p>
+                            <p className="photo-name__name-subtitle"><span>JavaScript </span> Developer</p>
                         </div>
                     </div>
                     < NavSocial />
                     <div className="summary-about">
-                        <h3 className="summary-about__title">About me</h3>
+                        <h3 className="summary-about__title">Sobre mí</h3>
                         <p className="summary-about__paragraph">Soy estudiante de ingeniería de sistemas, cuento con conocimientos básicos en desarrollo web. Soy autodidacta y me apasiona todo lo que tiene que ver con lenguajes y sistemas de programación.</p>
                     </div>
                     <div className="div-button">
