@@ -12,7 +12,7 @@ class Cover extends React.Component {
             <div className="cover-page__info">
                 <h2 className="cover-page__info--h2">Me llamo</h2>
                 <h4 className="cover-page__info--h4">Camilo Andres Pardo</h4>
-                <p className="cover-page__info--p">  <span>Asistente de </span> sistemas</p>
+                <p className="cover-page__info--p">  <span>JavaScript </span> Developer</p>
                 <a href="https://api.whatsapp.com/send?phone=573003865594&text=Hola%20Camilo!" target="_blank"><ButomPrimary nameclass="btn btn-success button__profile" textt="Enviar Mensaje"/></a>    
             </div>
             <div className="cover-page__photo">
