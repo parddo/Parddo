@@ -13,7 +13,7 @@ class Contact extends React.Component {
                 <div className="contac-info">
                     <div>
                         <ul>
-                            <li><b>Ubicación: </b> Bogotá-Colombia</li>
+                            <li><b>Ubicación: </b> Medellín-Colombia</li>
                             <li><b>Teléfono: </b> +57 3003865594</li>
                             <li><b>Correo: </b> contacto@parddo.com</li>
                         </ul>
