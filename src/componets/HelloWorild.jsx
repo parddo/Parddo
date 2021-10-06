@@ -14,11 +14,11 @@ import Profile from './sections/Profile';
 const HelloWorld = () => (
   <div className='contend-main '>
     <div>
-      <Profile imgProfile='https://pbs.twimg.com/profile_images/1392151112019546121/Cdvr2gcW_400x400.jpg' />
+      <Profile imgProfile='https://pbs.twimg.com/profile_images/1445542761092968455/3nYCAOj9_400x400.jpg' />
     </div>
     <div className='main'>
       <Navar />
-      <Cover imgProfile='https://pbs.twimg.com/profile_images/1392151112019546121/Cdvr2gcW_400x400.jpg' />
+      <Cover imgProfile='https://pbs.twimg.com/profile_images/1445542761092968455/3nYCAOj9_400x400.jpg' />
       <AnimationT />
       <AboutMe />
       <MySkills />
